@@ -1,6 +1,4 @@
-﻿
-
-#include <iostream>
+﻿#include <iostream>
 
 int main() {
 	for (int i = 0; i < 100000; i++) {
@@ -31,6 +29,15 @@ int main() {
 		if (input == 7) {
 			printf("1000\n");
 		}
+		if (input == 8) {
+			printf("1001\n");
+		}
+		if (input == 9) {
+			printf("1010\n");
+		}
+		if (input == 10) {
+			printf("1011\n");
+		}
 	} 
-		return 0;
-	}
+	return 0;
+}
